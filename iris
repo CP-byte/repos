@@ -1,1 +1,8 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load Iris dataset from seaborn
+iris_df = sns.load_dataset("iris")
+
+iris_df
 
